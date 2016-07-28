@@ -1,0 +1,31 @@
+{
+  "name": "feathers-client-filesize",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config ./webpack.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petermikitsh/feathers-client-filesize.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/petermikitsh/feathers-client-filesize/issues"
+  },
+  "homepage": "https://github.com/petermikitsh/feathers-client-filesize#readme",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.11.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "compression-webpack-plugin": "^0.3.1",
+    "feathers": "^2.0.1",
+    "feathers-rest": "^1.4.3",
+    "superagent": "^2.1.0",
+    "webpack": "^1.13.1"
+  }
+}
